@@ -1,7 +1,7 @@
 <?php
 if (!$link = mysql_connect('localhost', 'root', 'Moody_22')) {
     echo 'Could not connect to mysql';
-    exit;
+    exit;444
 }
 if (!mysql_select_db('FablabAuto', $link)) {
     echo 'Could not select database';
